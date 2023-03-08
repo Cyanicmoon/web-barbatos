@@ -5,26 +5,56 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>test</title>
         <style>
-            .oneline p, button{
-                display: inline;
-                margin: 5px;
+            tr{
+                align-items: center;
             }
+            td{
+                border: 1;
+            }
+            .cha-inf{
+                margin: 10px;
+            }
+            
         </style>
+        <script src="./main.js"></script>
     </head>
     <body>    
-        <h1 style="color:rgba(98, 55, 138, 0.384)">아무튼 위키임</h1>
-        <div class="oneline">
-            <p style="color:rgb(75, 170, 138)">벤티 보러가기</p>
-            <button type="button" onclick="location.href='/character-info/venti.html'">
-                이동
-            </button>
-        </div>
+        <h1 style="color:rgba(69, 79, 214, 0.817)">건희의 심심풀이</h1>
         
-        <div class="oneline">
-            <p style="color:rgb(214, 81, 81)">호두 보러가기</p>
-            <button type="button" onclick="location.href='/character-info/hutao.html'">
-                이동
-            </button>
-        </div>
+        <table>
+            <tr class="venti">
+                <td>
+                    <p style="color:rgb(75, 170, 138)">벤티 보러가기</p>
+                </td>
+                <td>
+                    <button class="cha-inf" type="button" onclick="location.href='/character-info/venti.html'">
+                        이동
+                    </button>
+                </td>
+            </tr>
+
+            <tr class="hutao">
+                <td>
+                    <p style="color:rgb(214, 81, 81)">호두 보러가기</p>
+                </td>
+                <td>
+                    <button class="cha-inf" type="button" onclick="location.href='/character-info/hutao.html'">
+                        이동
+                    </button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <p style="color: rgb(77, 77, 77);">블로그로 가기</p>
+                </td>
+                <td>
+                    <button type="menu" onclick="goBlog()" style="margin: 10px;">
+                        이동
+                    </button>
+                </td>
+            </tr>
+        </table>
+
     </body>
 </html> 
