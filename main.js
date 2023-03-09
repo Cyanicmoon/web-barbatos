@@ -4,3 +4,4 @@ function clicked_venti(){
 function clicked_hutao(){
     window.location.href = "./character-info/hutao.html";
 }
+
