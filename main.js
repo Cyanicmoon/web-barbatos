@@ -1,12 +1,4 @@
-/*function goBlog(){
-    window.location.href = 'https://blog.naver.com/aiden-1234';
-}
 
-function clicked_submit(){
-    var textarea = document.getElementById('submit');
-    console.log(typeof(textarea.value));
-}
-*/
 
 var URLString = top.location.href + "/";
 tURLString = URLString.split("/");
